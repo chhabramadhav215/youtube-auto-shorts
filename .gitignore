@@ -1,0 +1,28 @@
+# Node Dependencies
+node_modules/
+
+# Local Environment Variables & YouTube OAuth Secrets (NEVER COMMIT)
+.env
+client_secret.json
+client_secret.json.json
+token.json
+
+# Build Outputs & Generated Video Files
+output/
+
+# Temporary Download Cache & Local Binaries
+assets/cache/
+assets/bin/
+
+# Preserve Assets
+!assets/defaults/**
+!assets/clips/**
+!assets/audio/**
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
